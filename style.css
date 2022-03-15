@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+
+.rightPanel{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.topRightPanel,
+.midRightPanel,
+.botRightPanel{
+    flex: 1 0 auto;
+}
