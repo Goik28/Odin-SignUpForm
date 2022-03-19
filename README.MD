@@ -2,6 +2,5 @@ This is my take on the "Sign-Up form" - Intermediate HTML and CSS project for Th
 
 I used the imagem from AshrafChemban - https://pixabay.com/pt/photos/poste-de-eletricidade-rede-el%c3%a9trica-3916956/.
 
-The icon is from Fontawesome - https://fontawesome.com/icons/bolt?s=solid
+The icon is from https://feathericons.com/?query=zap
 
-First commit to create the repository and the files. 11/03/2022.
