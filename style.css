@@ -53,7 +53,7 @@ span{
     display: flex;
     gap: 5vw;
     padding-top: 3vh;
-    font-size: medium;
+    font-size: small;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -76,12 +76,32 @@ input{
     font-size: large;
     border-style: solid;
     border-color: #E5E7EB;
+    border-radius: 5px;
     padding-left: 10px;
 }
 
 input:focus{
     border-color: lightblue;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.error:invalid{
+    border-color: red;
+}
+
+.error:invalid:focus{
+    outline: none;
+}
+
+.errorMessage{
+    display: none;
+    color: red;
+    font-size: small;
+    margin-top: -1.8vh;
+}
+
+input:invalid ~ .errorMessage{
+    display: block;
 }
 
 .botRightPanel{
@@ -104,6 +124,7 @@ input:focus{
     border-radius: 10px;
     margin-top: 3vh;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .botRightPanel > p{
