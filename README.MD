@@ -4,3 +4,4 @@ I used the imagem from AshrafChemban - https://pixabay.com/pt/photos/poste-de-el
 
 The icon is from https://feathericons.com/?query=zap
 
+Finished the project in 23/03/2022.
