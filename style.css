@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     display: flex;
     height: 100vh;
@@ -16,23 +21,19 @@ body{
 
 .topRightPanel{
     background-color: #f6f7f8;
-    height: 35vh;
-    padding-left: 3vw;
-    padding-right: 10vw;
-}
-
-p{
-    margin: 0px;
-    padding: 0px;
+    height: 35%;
+    padding: 15px 10vw 15px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .topRightPanel > h2 > p:last-child{
-    padding-top: 4%;
+    padding-top: 15px;
 }
 
 h2{
     width: 85%;
-    padding-top: 15%;
 }
 
 span{
@@ -40,11 +41,10 @@ span{
 }
 
 .midRightPanel{
-    height: 30vh;
+    height: 30%;
     font-size: x-large;
     font-weight: bold;
-    padding-left: 3vw;
-    padding-top: 3vh;
+    padding: 15px 0 15px 50px;
     margin-bottom: 5px;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
 }
@@ -52,7 +52,7 @@ span{
 .formOrganizer{
     display: flex;
     gap: 5vw;
-    padding-top: 3vh;
+    padding-top: 20px;
     font-size: small;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
@@ -65,7 +65,7 @@ span{
 }
 
 input:nth-child(even){
-    margin-bottom: 2vh;
+    margin-bottom: 15px;
 }
 
 label:nth-child(odd){
@@ -85,6 +85,10 @@ input:focus{
     box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 }
 
+#confirmPass{
+    margin-bottom: 18.2px;
+}
+
 .error:invalid{
     border-color: red;
 }
@@ -97,7 +101,7 @@ input:focus{
     display: none;
     color: red;
     font-size: small;
-    margin-top: -1.8vh;
+    margin-top: -15px;
 }
 
 input:invalid ~ .errorMessage{
@@ -109,8 +113,8 @@ input:invalid ~ .errorMessage{
     flex-direction: column;
     align-items: flex-start;
     background-color: #f6f7f8;
-    height: 35vh;
-    padding-left: 3vw;
+    height: 35%;
+    padding-left: 50px;
 }
 
 .botRightPanel > button{
